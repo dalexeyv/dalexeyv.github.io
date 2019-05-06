@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+    <style type="text/css">
+        .container {
+            display: flex;
+        }
+
+        .main-panel {
+            flex: 2 1 300px;
+        }
+
+        .right-panel {
+            flex: 1 1 100px;
+            background: rgb(73, 0, 0);
+            padding: 20px;
+            color: white;
+        }
+
+        .header {
+            background: rgb(1, 1, 77);
+            /* Цвет фона */
+            font-size: 24pt;
+            /* Размер текста */
+            font-weight: bold;
+            /* Жирное начертание */
+            color: #edeed5;
+            padding: 40px 15px;
+        }
+
+        .footer {
+            /* Цвет фона */
+            color: rgb(255, 255, 255);
+            /* Цвет текста */
+            padding: 5px;
+            /* Отступы вокруг текста */
+        }
+
+        img {
+            vertical-align: bottom
+        }
+
+        body {
+            margin: 0;
+        }
+
+        ul{
+            background: rgb(1, 1, 77);
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+            padding-inline-start: 15px;
+        }
+
+        li {
+            display: inline-block;
+            /* Строчно-блочные элементы */
+            background: #CA181A;
+            /* Цвет фона */
+            margin-right: 3px;
+            /* Расстояние между пунктами меню */
+            -webkit-transform: skewX(-30deg);
+            /* Для Safari и Chrome */
+            -moz-transform: skewX(-30deg);
+            /* Для Firefox */
+            -o-transform: skewX(-30deg);
+            /* Для Opera */
+            -ms-transform: skewX(-30deg);
+            /* Для IE */
+            transform: skewX(-30deg);
+            /* CSS3 */
+        }
+
+        a {
+            color: #fff;
+            /* Цвет ссылок */
+            display: block;
+            /* Блочный элемент */
+            padding: 5px 15px;
+            /* Поля вокруг текста */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            -webkit-transform: skewX(30deg);
+            /* Для Safari и Chrome */
+            -moz-transform: skewX(30deg);
+            /* Для Firefox */
+            -o-transform: skewX(30deg);
+            /* Для Opera */
+            -ms-transform: skewX(30deg);
+            /* Для IE */
+            transform: skewX(30deg);
+            /* CSS3 */
+        }
+
+        li:hover {
+            background: rgb(73, 0, 0);
+            /* Цвет фона при наведении курсора мыши */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        Привет! Это моя веб-страница и здесь я буду делиться своими фотографиями.
+    </div>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="origami.html">Оригами</a></li>
+    </ul>
+    <div style="background:rgb(73, 0, 0); ">
+        <div class="container">
+            <div class="main-panel">
+                <img src="photo_2019-05-04_11-50-36 (2).jpg" width="100%">
+                <img src="photo_2019-05-04_11-49-56.jpg" width="100%">
+                <img src="photo_2019-05-04_11-50-36.jpg" width="100%">
+                <img src="photo_2019-05-04_11-50-38.jpg" width="100%">
+                <img src="photo_2019-05-01_18-36-14.jpg" width="100%">
+                <img src="photo_2019-05-01_18-36-14 (2).jpg" width="100%">
+                <img src="photo_2019-05-01_18-36-13 (2).jpg" width="100%">
+                <img src="photo_2019-05-04_11-50-41.jpg" width="100%">
+                <img src="photo_2019-05-01_18-36-13.jpg" width="100%">
+            </div>
+            <div class="right-panel"><span>Все приходит вовремя к тому, кто умеет ждать. (лорд Биконсфильд, урожденный
+                    Дизраэли)</span>
+                <p>
+                    "...никогда и ничего не просите! Никогда и ничего, и в особенности у тех, кто сильнее вас. Сами
+                    предложат
+                    и
+                    сами все дадут!" (М.А. Булгаков)
+                </p>
+                <p>
+                    Боже! Дай мне силы изменить в моей жизни то, что я могу изменить. Дай мне мужество принять то, что
+                    изменить не
+                    в моей власти. И дай мне мудрость отличить одно от другого (молитва, R. Niebuhr).
+                </p>
+                <p>
+                    Не спешите всего достичь. Чем вы будете жить потом? (Б. Шоу)
+                </p>
+                <p>
+                    "Наиболее высокого положения достигают обычно не слишком способные, и судьба осыпает своими дарами
+                    отнюдь
+                    не
+                    самых достойных". (М. Монтень)
+                </p>
+                <p>
+                    Только глупцы могут быть непоколебимы в своей уверенности. (М. Монтень)
+                </p>
+                <p>
+                    Процесс - это жизнь, результат - это смерть! (Михаил Жванецкий)
+                </p>
+                <p>
+                    Делай, что должен и будь, что будет. (Рыцарский девиз)
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; Алексей Денисенко
+        </div>
+    </div>
+</body>
+
+</html>
